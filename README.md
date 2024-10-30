@@ -19,3 +19,23 @@ cd to the `examples` folder and run the following script:
 python gym_test.py
 ```
 
+## Trying it out
+You can evolve robots with the following code (it takes a few minutes to run):
+```bash
+python ./example/run.py --max-iters 10 --population-size 5 --max-evaluations 10 --exp-dir ./result/experiment
+```
+
+## Robot Visualization
+You can also visualize the experiment results. The following code visualizes the movement of the best-performing robot in the experiments saved in the specified directory:
+```bash
+python visualize/best_robot.py -e ./result/experiment
+```
+
+## Experiment
+### Experiment 1
+Experiment on `BridgeWalker-v0` Task:
+```bash
+python ./example/run.py --env-name BridgeWalker-v0 --max-iters 1000 --population-size 25 --max-evaluations 250 --exp-dir ./result/experiment_bridge --crossover_rate 0.5 --mutation-rate 0.1 --elite-rate-high 0.6 --elite-rate-low 0.1 --lr 2.5e-4 --num-steps 128 --num-processes 4 --clip-param 0.1 --value-loss-coef 0.5 --entropy-coef 0.01 --num-evals 50 --use-linear-lr-decay --use-gae
+```
+
+
