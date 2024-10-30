@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B98E72A3-4C1F-358A-B988-3F3AFD8915A8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>simulator_cpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\bigproject\evogym\build\lib.win-amd64-cpython-37\evogym\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">simulator_cpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">simulator_cpp.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\bigproject\evogym\build\lib.win-amd64-cpython-37\evogym\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">simulator_cpp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">simulator_cpp.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\bigproject\evogym\build\lib.win-amd64-cpython-37\evogym\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">simulator_cpp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">simulator_cpp.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\bigproject\evogym\build\lib.win-amd64-cpython-37\evogym\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">simulator_cpp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">simulator_cpp.cp37-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);VERSION_INFO="1.0.0";WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR="E:/bigproject/evogym/evogym/simulator";GRAPHICS_CODEBASE_SOURCE_DIR="E:/bigproject/evogym/evogym/simulator";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="Debug";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;VERSION_INFO=\"1.0.0\";_WINDOWS;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR=\"E:/bigproject/evogym/evogym/simulator\";GRAPHICS_CODEBASE_SOURCE_DIR=\"E:/bigproject/evogym/evogym/simulator\";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\externals\Debug\glew.lib;..\externals\glfw\src\Debug\glfw3.lib;kernel32.lib;opengl32.lib;gdi32.lib;user32.lib;shell32.lib;E:\anaconda\envs\evogym\libs\python37.lib;-ldl</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/SimulatorCPP/Debug/simulator_cpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/bigproject/evogym/build/lib.win-amd64-cpython-37/evogym/Debug/simulator_cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);VERSION_INFO="1.0.0";WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR="E:/bigproject/evogym/evogym/simulator";GRAPHICS_CODEBASE_SOURCE_DIR="E:/bigproject/evogym/evogym/simulator";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="Release";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;VERSION_INFO=\"1.0.0\";_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR=\"E:/bigproject/evogym/evogym/simulator\";GRAPHICS_CODEBASE_SOURCE_DIR=\"E:/bigproject/evogym/evogym/simulator\";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"Release\";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\externals\Release\glew.lib;..\externals\glfw\src\Release\glfw3.lib;kernel32.lib;opengl32.lib;gdi32.lib;user32.lib;shell32.lib;E:\anaconda\envs\evogym\libs\python37.lib;-ldl</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/SimulatorCPP/Release/simulator_cpp.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>E:/bigproject/evogym/build/lib.win-amd64-cpython-37/evogym/simulator_cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);VERSION_INFO="1.0.0";WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR="E:/bigproject/evogym/evogym/simulator";GRAPHICS_CODEBASE_SOURCE_DIR="E:/bigproject/evogym/evogym/simulator";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;VERSION_INFO=\"1.0.0\";_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR=\"E:/bigproject/evogym/evogym/simulator\";GRAPHICS_CODEBASE_SOURCE_DIR=\"E:/bigproject/evogym/evogym/simulator\";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\externals\MinSizeRel\glew.lib;..\externals\glfw\src\MinSizeRel\glfw3.lib;kernel32.lib;opengl32.lib;gdi32.lib;user32.lib;shell32.lib;E:\anaconda\envs\evogym\libs\python37.lib;-ldl</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/SimulatorCPP/MinSizeRel/simulator_cpp.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>E:/bigproject/evogym/build/lib.win-amd64-cpython-37/evogym/MinSizeRel/simulator_cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);VERSION_INFO="1.0.0";WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR="E:/bigproject/evogym/evogym/simulator";GRAPHICS_CODEBASE_SOURCE_DIR="E:/bigproject/evogym/evogym/simulator";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;VERSION_INFO=\"1.0.0\";_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PROJECT_DIR=\"E:/bigproject/evogym/evogym/simulator\";GRAPHICS_CODEBASE_SOURCE_DIR=\"E:/bigproject/evogym/evogym/simulator\";TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";simulator_cpp_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\SimulatorCPP;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\pybind11\include;E:\anaconda\envs\evogym\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\externals\RelWithDebInfo\glew.lib;..\externals\glfw\src\RelWithDebInfo\glfw3.lib;kernel32.lib;opengl32.lib;gdi32.lib;user32.lib;shell32.lib;E:\anaconda\envs\evogym\libs\python37.lib;-ldl</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/SimulatorCPP/RelWithDebInfo/simulator_cpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/bigproject/evogym/build/lib.win-amd64-cpython-37/evogym/RelWithDebInfo/simulator_cpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\PythonBindings.cpp" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\BBTreeNode.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Boxel.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Camera.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Colors.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Edge.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Environment.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Interface.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\ObjectCreator.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\PhysicsEngine.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Robot.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Sim.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\SimObject.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Snapshot.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\main.h" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\BBTreeNode.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Boxel.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Camera.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Edge.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Environment.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Interface.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\ObjectCreator.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\PhysicsEngine.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Robot.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Sim.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\SimObject.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\Snapshot.cpp" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\SimulatorCPP\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glew.vcxproj">
+      <Project>{2B4CE054-8F27-39F9-B76B-A1D43EA00FBD}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src\glfw.vcxproj">
+      <Project>{3AF3D09E-7207-37B2-B0FE-62769EB30D2C}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3AF3D09E-7207-37B2-B0FE-62769EB30D2C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>glfw</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glfw3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_GLFW_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\bigproject\evogym\evogym\simulator\externals\eigen;E:\bigproject\evogym\evogym\simulator\externals\glew\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW;E:\bigproject\evogym\evogym\simulator\externals\glfw\include;E:\bigproject\evogym\evogym\simulator\externals\glfw\src;E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW\glfw3.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\include\GLFW\glfw3native.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\internal.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\platform.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\mappings.h" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\context.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\init.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\input.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\monitor.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\platform.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\vulkan.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\window.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\egl_context.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\osmesa_context.c" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\null_platform.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\null_joystick.h" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\null_init.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\null_monitor.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\null_window.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\null_joystick.c" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_time.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_thread.h" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_module.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_time.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_thread.c" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_platform.h" />
+    <ClInclude Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_joystick.h" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_init.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_joystick.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_monitor.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\win32_window.c" />
+    <ClCompile Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\wgl_context.c" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

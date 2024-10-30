@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\CMakeFiles\c0d74a7b29f9416febd369708a3960a7\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\bigproject\evogym\evogym\simulator\externals\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="E:\bigproject\evogym\build\temp.win-amd64-cpython-37\Release\externals\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F36D9F7-7746-3946-9933-09BBBF22660A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1315267B-B567-3780-9DD1-BDD90E346BB2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,542 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/10/24 1:34:20。
+      节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\3.30.5\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.57
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -DVERSION_INFO="1.0.0"
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/10/24 1:34:22。
+      节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.02
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-sho4ea"
+      binary: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-sho4ea"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-sho4ea'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_914e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/10/24 1:34:24。
+        节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-sho4ea\\cmTC_914e6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_914e6.dir\\Debug\\”。
+          正在创建目录“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-sho4ea\\Debug\\”。
+          正在创建目录“cmTC_914e6.dir\\Debug\\cmTC_914e6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_914e6.dir\\Debug\\cmTC_914e6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_914e6.dir\\Debug\\\\" /Fd"cmTC_914e6.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Users\\24775\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_914e6.dir\\Debug\\\\" /Fd"cmTC_914e6.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "C:\\Users\\24775\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-sho4ea\\Debug\\cmTC_914e6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-sho4ea/Debug/cmTC_914e6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-sho4ea/Debug/cmTC_914e6.lib" /MACHINE:X64  /machine:x64 cmTC_914e6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_914e6.vcxproj -> E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-sho4ea\\Debug\\cmTC_914e6.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_914e6.dir\\Debug\\cmTC_914e6.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_914e6.dir\\Debug\\cmTC_914e6.tlog\\cmTC_914e6.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-sho4ea\\cmTC_914e6.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27051.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-b02qo0"
+      binary: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-b02qo0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DVERSION_INFO=\\\"1.0.0\\\"  /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-b02qo0'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_567b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/10/24 1:34:26。
+        节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-b02qo0\\cmTC_567b9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_567b9.dir\\Debug\\”。
+          正在创建目录“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-b02qo0\\Debug\\”。
+          正在创建目录“cmTC_567b9.dir\\Debug\\cmTC_567b9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_567b9.dir\\Debug\\cmTC_567b9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D "VERSION_INFO=\\"1.0.0\\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_567b9.dir\\Debug\\\\" /Fd"cmTC_567b9.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Users\\24775\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D "VERSION_INFO=\\"1.0.0\\"" /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_567b9.dir\\Debug\\\\" /Fd"cmTC_567b9.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "C:\\Users\\24775\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-b02qo0\\Debug\\cmTC_567b9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-b02qo0/Debug/cmTC_567b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-b02qo0/Debug/cmTC_567b9.lib" /MACHINE:X64  /machine:x64 cmTC_567b9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_567b9.vcxproj -> E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-b02qo0\\Debug\\cmTC_567b9.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_567b9.dir\\Debug\\cmTC_567b9.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_567b9.dir\\Debug\\cmTC_567b9.tlog\\cmTC_567b9.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-b02qo0\\cmTC_567b9.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.39
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27051.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "externals/pybind11/tools/pybind11Common.cmake:276 (check_cxx_compiler_flag)"
+      - "externals/pybind11/tools/pybind11Common.cmake:340 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "externals/pybind11/tools/pybind11Common.cmake:385 (_pybind11_generate_lto)"
+      - "externals/pybind11/CMakeLists.txt:222 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-6h3ila"
+      binary: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-6h3ila"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-DVERSION_INFO=\\\"1.0.0\\\"  /DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-6h3ila'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_f06a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/10/24 1:48:39。
+        节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\cmTC_f06a6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f06a6.dir\\Debug\\”。
+          正在创建目录“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\Debug\\”。
+          正在创建目录“cmTC_f06a6.dir\\Debug\\cmTC_f06a6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f06a6.dir\\Debug\\cmTC_f06a6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /GL /D _MBCS /D "VERSION_INFO=\\"1.0.0\\"" /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f06a6.dir\\Debug\\\\" /Fd"cmTC_f06a6.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /GL /D _MBCS /D "VERSION_INFO=\\"1.0.0\\"" /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f06a6.dir\\Debug\\\\" /Fd"cmTC_f06a6.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\src.cxx"
+          src.cxx
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\Debug\\cmTC_f06a6.exe" /INCREMENTAL /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-6h3ila/Debug/cmTC_f06a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-6h3ila/Debug/cmTC_f06a6.lib" /MACHINE:X64  /machine:x64 cmTC_f06a6.dir\\Debug\\src.obj
+        LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范) [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\cmTC_f06a6.vcxproj]
+          正在生成代码
+          已完成代码的生成
+          cmTC_f06a6.vcxproj -> E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\Debug\\cmTC_f06a6.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f06a6.dir\\Debug\\cmTC_f06a6.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f06a6.dir\\Debug\\cmTC_f06a6.tlog\\cmTC_f06a6.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\cmTC_f06a6.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\cmTC_f06a6.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范) [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-6h3ila\\cmTC_f06a6.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:02.13
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "externals/glfw/CMakeLists.txt:56 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-ewu4ia"
+      binary: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-ewu4ia"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/bigproject/evogym/evogym/simulator/externals/glfw/CMake/modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-ewu4ia'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_b5674.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/10/24 1:48:42。
+        节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\cmTC_b5674.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b5674.dir\\Debug\\”。
+          正在创建目录“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\Debug\\”。
+          正在创建目录“cmTC_b5674.dir\\Debug\\cmTC_b5674.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b5674.dir\\Debug\\cmTC_b5674.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5674.dir\\Debug\\\\" /Fd"cmTC_b5674.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5674.dir\\Debug\\\\" /Fd"cmTC_b5674.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\src.c"
+          src.c
+          
+        E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\cmTC_b5674.vcxproj]
+        已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\cmTC_b5674.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\cmTC_b5674.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-ewu4ia\\cmTC_b5674.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.79
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "externals/glfw/CMakeLists.txt:56 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-k2nnnz"
+      binary: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-k2nnnz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/bigproject/evogym/evogym/simulator/externals/glfw/CMake/modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-k2nnnz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_ba451.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/10/24 1:48:43。
+        节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\cmTC_ba451.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ba451.dir\\Debug\\”。
+          正在创建目录“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\Debug\\”。
+          正在创建目录“cmTC_ba451.dir\\Debug\\cmTC_ba451.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ba451.dir\\Debug\\cmTC_ba451.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba451.dir\\Debug\\\\" /Fd"cmTC_ba451.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba451.dir\\Debug\\\\" /Fd"cmTC_ba451.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\Debug\\cmTC_ba451.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-k2nnnz/Debug/cmTC_ba451.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-k2nnnz/Debug/cmTC_ba451.lib" /MACHINE:X64  /machine:x64 cmTC_ba451.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\cmTC_ba451.vcxproj]
+        已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\cmTC_ba451.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\cmTC_ba451.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-k2nnnz\\cmTC_ba451.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.82
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/24775/AppData/Local/Programs/Python/Python38/Lib/site-packages/cmake/data/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "externals/glfw/CMakeLists.txt:56 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-3dsjzg"
+      binary: "E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-3dsjzg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/bigproject/evogym/evogym/simulator/externals/glfw/CMake/modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-3dsjzg'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" cmTC_a2039.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/10/24 1:48:45。
+        节点 1 上的项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\cmTC_a2039.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a2039.dir\\Debug\\”。
+          正在创建目录“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\Debug\\”。
+          正在创建目录“cmTC_a2039.dir\\Debug\\cmTC_a2039.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a2039.dir\\Debug\\cmTC_a2039.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2039.dir\\Debug\\\\" /Fd"cmTC_a2039.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27051 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2039.dir\\Debug\\\\" /Fd"cmTC_a2039.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\Debug\\cmTC_a2039.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-3dsjzg/Debug/cmTC_a2039.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/bigproject/evogym/build/temp.win-amd64-cpython-37/Release/CMakeFiles/CMakeScratch/TryCompile-3dsjzg/Debug/cmTC_a2039.lib" /MACHINE:X64  /machine:x64 cmTC_a2039.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\cmTC_a2039.vcxproj]
+        已完成生成项目“E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\cmTC_a2039.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\cmTC_a2039.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\bigproject\\evogym\\build\\temp.win-amd64-cpython-37\\Release\\CMakeFiles\\CMakeScratch\\TryCompile-3dsjzg\\cmTC_a2039.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:01.08
+        
+      exitCode: 1
+...
