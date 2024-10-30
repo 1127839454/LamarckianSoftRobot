@@ -1,0 +1,58 @@
+started evolution.
+save results at: result\experiment
+initialized 5 robots.
+==============================================================================================
+generation: 00
+==============================================================================================
+training robot 0 (parents: None)...
+	terminated. fitness: 0.010232
+training robot 1 (parents: None)...
+	terminated. fitness: -0.162632
+training robot 2 (parents: None)...
+	terminated. fitness: -0.034354
+training robot 3 (parents: None)...
+	terminated. fitness: -0.133725
+training robot 4 (parents: None)...
+	terminated. fitness: 0.041522
+--------------------------------------------------------------------------------------------
+genetic operation (elite_rate: 0.3222222222222222, num_survivors: 2)
+--------------------------------------------------------------------------------------------
+elites: [4 0].
+individual 1 was reproduced from (4,) by mutation.
+individual 2 was reproduced from (0,) by mutation.
+individual 3 was reproduced from (4,) by mutation.
+==============================================================================================
+generation: 01
+==============================================================================================
+skip training robot 0 (parents: None).
+training robot 1 (parents: (4,))...
+	inherited controller.
+	terminated. fitness: 0.042754
+training robot 2 (parents: (0,))...
+	inherited controller.
+	terminated. fitness: -0.058009
+training robot 3 (parents: (4,))...
+	inherited controller.
+	terminated. fitness: 0.038942
+skip training robot 4 (parents: None).
+--------------------------------------------------------------------------------------------
+genetic operation (elite_rate: 0.15555555555555556, num_survivors: 2)
+--------------------------------------------------------------------------------------------
+elites: [1 4].
+individual 0 was reproduced from (1,) by mutation.
+individual 2 was reproduced from (4,) by mutation.
+individual 3 was reproduced from (1,) by mutation.
+==============================================================================================
+generation: 02
+==============================================================================================
+training robot 0 (parents: (1,))...
+	inherited controller.
+	terminated. fitness: 0.070952
+skip training robot 1 (parents: (4,)).
+training robot 2 (parents: (4,))...
+	inherited controller.
+	terminated. fitness: -0.072491
+training robot 3 (parents: (1,))...
+	inherited controller.
+	terminated. fitness: 0.058403
+end evolution.
