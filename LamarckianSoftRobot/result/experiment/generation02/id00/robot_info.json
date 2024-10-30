@@ -1,0 +1,9 @@
+{
+   "id_": 0,
+   "generation": 2,
+   "parents_id": [
+      1
+   ],
+   "fitness": 0.070952,
+   "crossover_info": null
+}
