@@ -59,7 +59,7 @@ python visualize/best_robot.py -e ./result/experiment
 
 ### For Linux:
 
-You can first evolve robots by using run.py on Linux server. As the result of the training is saved in folder `result`, you can download the result to your local Windows, and the conduct visulization on Windows.
+You can first evolve robots by running `run.py` on Linux server. As the result of the training is saved in folder `result`, you can download the result to your local Windows, and then conduct visulization on Windows.
 
 
 
